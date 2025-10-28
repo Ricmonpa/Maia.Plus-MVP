@@ -4,13 +4,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { 
   FiSearch, 
   FiDollarSign, 
-  FiMapPin, 
-  FiAlertTriangle,
   FiCheckCircle,
   FiXCircle,
   FiTrendingUp,
   FiTrendingDown,
-  FiCamera,
   FiFlag
 } from 'react-icons/fi';
 

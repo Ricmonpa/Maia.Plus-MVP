@@ -8,7 +8,6 @@ import {
   FiMapPin,
   FiDollarSign,
   FiCompass,
-  FiGift,
   FiAlertTriangle,
   FiUser,
   FiMessageCircle

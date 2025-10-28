@@ -1,14 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { 
-  FiGift, 
   FiStar, 
-  FiTrendingUp,
-  FiShoppingBag,
-  FiAward,
   FiTarget,
-  FiZap,
   FiHexagon
 } from 'react-icons/fi';
 

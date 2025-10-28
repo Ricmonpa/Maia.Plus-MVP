@@ -8,7 +8,6 @@ import {
   FiGift,
   FiAlertTriangle,
   FiBarChart2,
-  FiShield,
   FiTrendingUp,
   FiMapPin,
   FiStar
@@ -161,7 +160,6 @@ const Badge = styled.span`
 `;
 
 const Sidebar = ({ isOpen, onClose }) => {
-  const location = useLocation();
 
   const mainFeatures = [
     {
