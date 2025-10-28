@@ -1,0 +1,30 @@
+{
+  "name": "maia-plus",
+  "version": "1.0.1",
+  "description": "Tu Guardian Angel en Tulum - Protección turística con IA",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "test": "npm run test:backend && npm run test:frontend",
+    "test:backend": "cd backend && npm test",
+    "test:frontend": "cd frontend && npm test"
+  },
+  "keywords": [
+    "tulum",
+    "turismo",
+    "ia",
+    "proteccion",
+    "precios",
+    "gobierno"
+  ],
+  "author": "Gobierno de Tulum",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
